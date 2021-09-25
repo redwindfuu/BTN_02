@@ -23,3 +23,39 @@
 body{
     background-color: aqua;
 }
+
+.text1{
+	
+}
+
+
+
+.team{
+    color: black;
+    font-size: xx-large;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.sol{
+    color: red;
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note{
+    color: black;
+    font-size: 11;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.person{
+    color: rgb(27, 13, 219);
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.infor{
+    color: black;
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
