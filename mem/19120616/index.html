@@ -10,17 +10,23 @@
                 margin-top: auto;
                 margin-bottom: auto;
                 display: block;
+                border-width: 400px;
+                border-color: Black;
             }
+
             #content{
                 overflow:auto; 
-                width: 1480px; 
+                width: 1400px; 
                 background-position: center center;
                 background-size: cover;
-                background-color: darkseagreen;
-                
             }
             .info{
-                text-indent: 3cm;
+                border:solid;
+                margin-left: 5cm;
+                text-indent: 1.5cm;
+                color: aqua;
+                font-weight: bold;
+                text-shadow: 1px 1px 0 hotpink, 2px 2px 0 red, 3px 3px 0 greenyellow, 4px 4px 0 orange, 5px 5px 0 yellow;
             }
             .person{
                 margin-left: auto;
@@ -30,36 +36,47 @@
             body{
                 background-image: url("img/22540204_124881954893923_9188257148691514498_n_thumb.jpg");
                 background-size: cover;
-                background-position: center center;
+            
+            }
+
+            .person{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 20px;
+            text-align: center;
+            color: #f5dbaa;
+            font-weight: bold;
+            text-shadow: 1px 1px 0 #CCCCCC, 2px 2px 0 #CCCCCC, 3px 3px 0 #CCCCCC, 4px 4px 0 #CCCCCC, 5px 5px 0 #CCCCCC;
             }
         </style>
     </head>    
-    <body style=""> 
+    <body> 
     <div class="person">
         <h1 style="text-align: center;">THÔNG TIN SINH VIÊN</h1>
     </div>
-    <div id = "content">
-        <div class = "info" style="width: 80%; float:left" >
-        <div>
-            <h1>Họ tên : Mã Chấn Phong</h1>
+    <div id = "content" >
+        <div class = "info" style="width: 35%; float:left" >
+            <div>
+                <h1>Họ tên : Mã Chấn Phong</h1>
+            </div>
+            <div>
+                <h1>MSSV :19120616</h1>
+            </div>
+            <div>
+                <h1>Ngày sinh : 24/10/2001</h1> 
+            </div> 
+            <div>
+                <h1>Email: uma6fuu@gmail.com</h1>
+            </div>
+            <div>
+                <h1>Số điện thoại: 0917640153</h1>
+            </div>     
+            <div>
+                <a href="../../index.html">Link về nhóm </a>
+            </div>     
         </div>
-        <div>
-            <h1>MSSV :19120616</h1>
-        </div>
-        <div>
-            <h1>Ngày sinh : 24/10/2001</h1> 
-        </div> 
-        <div>
-            <h1>Email: uma6fuu@gmail.com</h1>
-        </div>
-        <div>
-            <h1>Số điện thoại: 0917640153</h1>
-        </div>     
-        <div>
-            <a href="../../index.html">Link về nhóm </a></div>     
-        </div>
-        <div id = "myImg" style="width: 20%; float:right;">
-            <img src="img\myImg.jpg" alt="my Images" width="295" height="335" >
+        <div id = "myImg" style="width: 50%; float:right">
+            <img src="img\myImg.jpg" alt="my Images" width="295" height="335" style="padding:2px;border:thin solid black;" >
         </div>
     </div>
     </body>
