@@ -1,6 +1,4 @@
-#info{
 
-}
 #myImg img{
     margin-left: auto;
 	margin-right: auto;
@@ -11,15 +9,15 @@
 #content{
     overflow:auto; 
     width: 1480px; 
-    background: gray; 
     background-position: center center;
     background-size: cover;
 }
-#tle{
+.person{
     margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
 body{
-    background-color: aqua;
+    background-image: url(/img/22540204_124881954893923_9188257148691514498_n_thumb.jpg);
+
 }
